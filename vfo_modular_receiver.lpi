@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+        <MainUnitHasScaledStatement Value="False"/>
+      </Flags>
+      <Title Value="vfo_modular_receiver"/>
+      <UseAppBundle Value="False"/>
+    </General>
+    <BuildModes Active="Raspberry Pi Pico">
+      <Item Name="Raspberry Pi Pico" Default="True"/>
+      <Item Name="Adafruit Feather RP2040">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="bin/vfo_modular_receiver"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value="../units"/>
+            <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <TargetProcessor Value="armv6m"/>
+            <TargetCPU Value="arm"/>
+            <TargetOS Value="embedded"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <DebugInfoType Value="dsDwarf2"/>
+              <UseLineInfoUnit Value="False"/>
+            </Debugging>
+          </Linking>
+          <Other>
+            <CustomOptions Value="-Wpfeather_rp2040
+-godwarfsets
+-godwarfcpp
+-Xu"/>
+          </Other>
+        </CompilerOptions>
+      </Item>
+      <Item Name="Adafruit ItsyBitzy RP2040">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="bin/vfo_modular_receiver"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value="../units"/>
+            <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <TargetProcessor Value="armv6m"/>
+            <TargetCPU Value="arm"/>
+            <TargetOS Value="embedded"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <DebugInfoType Value="dsDwarf2"/>
+              <UseLineInfoUnit Value="False"/>
+            </Debugging>
+          </Linking>
+          <Other>
+            <CustomOptions Value="-Wpitzybitzy_rp2040
+-godwarfsets
+-godwarfcpp
+-Xu"/>
+          </Other>
+        </CompilerOptions>
+      </Item>
+      <Item Name="Adafruit QTPY RP2040">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="bin/vfo_modular_receiver"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value="../units"/>
+            <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <TargetProcessor Value="armv6m"/>
+            <TargetCPU Value="arm"/>
+            <TargetOS Value="embedded"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <DebugInfoType Value="dsDwarf2"/>
+              <UseLineInfoUnit Value="False"/>
+            </Debugging>
+          </Linking>
+          <Other>
+            <CustomOptions Value="-Wpqtpy_rp2040
+-godwarfsets
+-godwarfcpp
+-Xu"/>
+          </Other>
+        </CompilerOptions>
+      </Item>
+      <Item Name="Pimoroni Tiny 2040">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="bin/vfo_modular_receiver"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value="../units"/>
+            <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <TargetProcessor Value="armv6m"/>
+            <TargetCPU Value="arm"/>
+            <TargetOS Value="embedded"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <DebugInfoType Value="dsDwarf2"/>
+              <UseLineInfoUnit Value="False"/>
+            </Debugging>
+          </Linking>
+          <Other>
+            <CustomOptions Value="-Wptiny_2040
+-godwarfsets
+-godwarfcpp
+-Xu"/>
+          </Other>
+        </CompilerOptions>
+      </Item>
+      <Item Name="SparkFun Pro Micro RP2040">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="bin/vfo_modular_receiver"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value="../units"/>
+            <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <TargetProcessor Value="armv6m"/>
+            <TargetCPU Value="arm"/>
+            <TargetOS Value="embedded"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <DebugInfoType Value="dsDwarf2"/>
+              <UseLineInfoUnit Value="False"/>
+            </Debugging>
+          </Linking>
+          <Other>
+            <CustomOptions Value="-Wppromicro_rp2040
+-godwarfsets
+-godwarfcpp
+-Xu"/>
+          </Other>
+        </CompilerOptions>
+      </Item>
+      <Item Name="SparkFun Thing Plus RP2040">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="bin/vfo_modular_receiver"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value="../units"/>
+            <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <TargetProcessor Value="armv6m"/>
+            <TargetCPU Value="arm"/>
+            <TargetOS Value="embedded"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <DebugInfoType Value="dsDwarf2"/>
+              <UseLineInfoUnit Value="False"/>
+            </Debugging>
+          </Linking>
+          <Other>
+            <CustomOptions Value="-Wpthingplus_rp2040
+-godwarfsets
+-godwarfcpp
+-Xu"/>
+          </Other>
+        </CompilerOptions>
+      </Item>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+    </RunParams>
+    <Units>
+      <Unit>
+        <Filename Value="vfo_modular_receiver.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="36" Y="11"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/pico-fpcexamples-main/units/pico_i2c_c.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="168"/>
+        <CursorPos X="10" Y="165"/>
+        <UsageCount Value="94"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/pico-fpcexamples-main/units/customdisplayframebuffer1bit.pas"/>
+        <UnitName Value="CustomDisplayFrameBuffer1Bit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="138"/>
+        <CursorPos Y="145"/>
+        <UsageCount Value="29"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/pico-fpcexamples-main/units/customdisplay.pas"/>
+        <UnitName Value="CustomDisplay"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="86"/>
+        <CursorPos X="46" Y="90"/>
+        <UsageCount Value="31"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/pico-fpcexamples-main/units/ssd1306_i2c_c.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="243"/>
+        <CursorPos Y="252"/>
+        <UsageCount Value="145"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/VFOSI5351/display.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="45"/>
+        <CursorPos X="31" Y="92"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/rp2040units-sdk1.5.5/pico_i2c_c.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="13"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/rp2040units-sdk1.5.5/si5351_i2c.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="356"/>
+        <CursorPos Y="365"/>
+        <UsageCount Value="3"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/rp2040units-sdk1.5.5/ssd1306_i2c_c.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="24"/>
+        <CursorPos X="3" Y="24"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/rp2040units-sdk1.5.5/customdisplay.pas"/>
+        <UnitName Value="CustomDisplay"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="154"/>
+        <CursorPos X="6"/>
+        <UsageCount Value="2"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/VFOSI5351/button.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="6"/>
+        <UsageCount Value="205"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../PROGRAMMATION/FPCUPDELUXE/fpcupdeluxe/fpcsrc/rtl/embedded/arm/cortexm0p_start.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="54"/>
+        <CursorPos Y="63"/>
+        <UsageCount Value="3"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/pico-fpcexamples-main/units/si5351_i2c.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="666"/>
+        <CursorPos Y="677"/>
+        <UsageCount Value="1"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="10">
+      <Position>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/VFOSI5351/display.pas"/>
+        <Caret Line="214" TopLine="206"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/VFOSI5351/display.pas"/>
+        <Caret Line="279" TopLine="267"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/VFOSI5351/display.pas"/>
+        <Caret Line="280" TopLine="267"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/VFOSI5351/display.pas"/>
+        <Caret Line="156" TopLine="146"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/VFOSI5351/display.pas"/>
+        <Caret Line="122" TopLine="116"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/VFOSI5351/display.pas"/>
+        <Caret Line="138" TopLine="116"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/VFOSI5351/display.pas"/>
+        <Caret Line="122" TopLine="116"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/VFOSI5351/display.pas"/>
+        <Caret Line="138" TopLine="116"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/VFOSI5351/display.pas"/>
+        <Caret Line="138" TopLine="131"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../../PROGRAMMATION/FREEPASCAL/RaspberryPico/VFOSI5351/display.pas"/>
+        <Caret Line="155" TopLine="141"/>
+      </Position>
+      <Position>
+        <Filename Value="vfo_modular_receiver.lpr"/>
+        <Caret Line="17" Column="44"/>
+      </Position>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="bin/vfo_modular_receiver"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <Libraries Value="rtl"/>
+      <OtherUnitFiles Value="units"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <HeapSize Value="1024"/>
+      <StackSize Value="1024"/>
+      <TargetProcessor Value="ARMV6M"/>
+      <TargetCPU Value="arm"/>
+      <TargetOS Value="embedded"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <UseLineInfoUnit Value="False"/>
+      </Debugging>
+    </Linking>
+    <Other>
+      <CustomOptions Value="-Wpraspi_pico
+-godwarfsets
+-godwarfcpp
+-Xu
+-vu"/>
+      <CompilerPath Value="/home/mandon/Documents/PROGRAMMATION/FPCUPDELUXE/fpcupdeluxe/fpc/bin/x86_64-linux/fpc.sh"/>
+    </Other>
+  </CompilerOptions>
+</CONFIG>
